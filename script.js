@@ -1,3 +1,4 @@
+
 let circleColor = 0;
 let lineColor = 0;
 let circles = [];
@@ -8,7 +9,7 @@ let maxCircleCount = 300;
 let maxLineCount = 500; 
 
 function setup() {
-  createCanvas(2000, 1500);
+  createCanvas(windowWidth, windowHeight);
   stroke(0);
   noFill();
   background(200);
